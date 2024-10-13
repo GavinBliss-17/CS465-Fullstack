@@ -1,0 +1,77 @@
+/* Basic layout and styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Logo positioning */
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  /* Main text in the center */
+  .main-text {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .main-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .main-text p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Links section on the right side */
+  .links {
+    text-align: right;
+    margin-top: 50px;
+  }
+  
+  .links h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links ul li {
+    margin: 8px 0;
+  }
+  
+  .links ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social media links styling */
+  .social {
+    margin-top: 20px;
+  }
+  
+  .social a {
+    color: #666;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .social a:hover {
+    color: #007bff;
+  }
+  
