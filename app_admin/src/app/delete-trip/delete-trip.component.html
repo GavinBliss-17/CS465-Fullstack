@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Delete Trip</h1>
+    <p>{{ message }}</p>
+  
+    <form (submit)="deleteTrip(tripCode.value)">
+      <label for="tripCode">Enter Trip Code to Delete:</label>
+      <input type="text" id="tripCode" #tripCode placeholder="Trip Code" required>
+      <button type="submit" class="btn btn-danger">Delete Trip</button>
+    </form>
+  </div>
+  

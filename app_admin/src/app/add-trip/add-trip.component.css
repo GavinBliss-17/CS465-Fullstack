@@ -1,0 +1,22 @@
+/* Make the input fields larger */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  width: 100%;       /* Full width of the form container */
+  padding: 10px;     /* Add padding inside the input */
+  font-size: 16px;   /* Increase font size */
+  margin-bottom: 20px; /* Add spacing between fields */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 4px;     /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+textarea {
+  height: 150px;     /* Increase height for textarea */
+}
+
+button {
+  padding: 10px 20px; /* Increase button size */
+  font-size: 16px;    /* Increase font size */
+}
