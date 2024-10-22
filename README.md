@@ -1,5 +1,6 @@
 # CS465-Fullstack
 CS-465 Full Stack Development with MEAN
+
 Architecture
 
 For our full stack project, Express HTML was used to provide server-side pages, allowing dynamic content delivery based on server logic. JavaScript added interactivity on the client side, enabling real-time updates without needing to reload the page. The Single Page Application (SPA) structure using Angular created a smoother experience by loading all resources upfront and updating content as needed. For the backend, we used MongoDB, which handles JSON-like document storage, ensuring efficient data management.
